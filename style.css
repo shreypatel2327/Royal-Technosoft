@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.283);
+    height:130px;
+    /* opacity: 0.40; */
+    position: absolute;
+    top: 0;
+    /* margin: 0px 30px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav img{
+    margin-left: 35px;
+}
+
+.fa-phone-volume,.fa-house{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-house{
+    color: orangered;
+}
+
+section .btn{
+    /* height: 150px;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.btn button{
+    background-color: orangered;
+    color: white;
+    padding: 10px 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.btn :nth-child(2){
+    padding: 10px 100px;
+}
+
+.ytvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(128, 128, 128, 0.237);
+    padding: 50px 0px;
+}
+
+
+.seminar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 0px;
+}
+
+.seminar img{
+    /* height: 80vw; */
+    width: 40%;
+    box-shadow: 8px 8px 8px 8px rgba(128, 128, 128, 0.259);
+}
+
+.welcome{
+    background-color: rgba(128, 128, 128, 0.145) ;
+}
+
+/* .welcome .image{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+} */
+
+
+.text li{
+    list-style-type: none;
+    padding: 16px 0px ;
+    font-size: 25px;
+    border-left: 1px solid orangered;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.343);
+}
+
+.text li::before{
+    content: url("https://royaltechnosoft.com/wp-content/themes/kadaadm/images/arrow_right.png" );
+    /* padding: 5px; */
+    /* border: 2px solid orangered; */
+}
+
+.welcome{
+    display: flex;
+    gap: 50px;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    /* align-items: center; */
+
+}
+
+.smallimge{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;*/
+
+    padding: 50px 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: auto; */
+    /* gap: 10px; */
+
+    
+    
+}
+
+.smallimge img{
+    height:75px;
+}
+
+
+.whyroyal{
+    background-image: url("https://royaltechnosoft.com/wp-content/uploads/2017/12/why-bookeeping-section-bg.jpg");
+    padding: 50px 0px;
+    /* display: flex; */
+}
+
+.whyroyal h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px ;
+    font-size: 48px;
+}
+
+
+.why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 80%;
+}
+
+.why h4{
+    text-align: justify;
+
+    color: white;
+}
+
+.why img{
+    border: 5px solid white;
+}
+
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px 0px; */
+    /* width: 80%; */
+    /* background-color:  rgba(128, 128, 128, 0.182); */
+    margin: auto;
+}
+
+.services{
+    background-color: rgba(197, 186, 186, 0.601);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+    padding-left: 50px;
+    width: 50%;
+    /* padding: 100px 50px; */
+
+    /* height: 100vh; */
+
+}
+
+
+.services li{
+    list-style-type: none ;
+    font-size: 30px;
+
+}
+
+.services li::before{
+    content: url("https://royaltechnosoft.com/wp-content/themes/kadaadm/images/right-arrow.png");
+} 
+
+.workwith{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(128, 128, 128, 0.182);
+    width: 50%;
+    /* height: 100%; */
+    /* height: 100vh; */
+
+}
+
+.tem{
+    background-image: url("https://royaltechnosoft.com/wp-content/uploads/2017/12/team-section-bg.jpg");
+}
+
+.projects{
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 50px 0px;
+}
+
+.projects h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.proimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    width: 80%;
+    margin: auto;
+} 
+
+
+.contactus{
+    background-color: #363839;
+    color: white;
+    /* display: flex; */
+    padding: 50px 0px;
+}
+
+.contactus h1{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    /* width: 80%;
+    margin: auto; */
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+
+.info .icon{
+    /* border: 2px  solid white; */
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.info h6{
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 50%; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.form input{
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px ;
+}
+
+.nampho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form button{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* width: 30%; */
+    padding: 8px 24px;
+    border-radius: 8px ;
+}
+
+.form textarea{
+    background-color: #363839;
+    color: white;
+    /* border: none; */
+    outline: none;
+}
+
+.lastline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 150px;
+}
+
+@media screen and (max-width:1024px) {
+    section .btn{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+/* 
+    .contactus{
+        width: 100%;
+    } */
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+
+    .projects{
+        width: 100vw;
+    }
+
+    .course{
+        display: flex;
+        flex-direction: column;
+    }
+    /* body{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .whyroyal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seminar{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ytvideo{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ytvideo iframe{
+        width: 100%;
+    }
+
+    .seminar img{
+        width: 100%;
+    }
+
+    .welcome{
+        width: 100%;
+    }
+
+    .welcome .text{
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .welcome .image img{
+        width: 100%;
+    }
+
+    .why img{
+        width: 100%;
+    }
+
+    .why{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .why h4{
+        text-align: center;
+    }
+
+    .course{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course .services{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        /* height: 50vh; */
+        /* height: 500px; */
+    }
+
+    .course .workwith{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .course .workwith img{
+        width: 100%;
+    }
+
+    .projects{
+        width: 100%;
+    }
+
+    .projects .proimg{
+        /* width: 100%; */
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form{
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .form .nampho{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form .nampho input{
+        width: 100%;
+    }
+
+    .slide img{
+        width: 100%;
+    }
+
+    .contactus h1{
+        text-align: center;
+    }
+
+    .contactus {
+        padding: 30px;
+    }
+
+    .whyroyal{
+        padding: 30px;
+    }
+
+
+    section .btn {
+        padding: 50px;
+    }
+
+
+    .projects h3{
+        text-align: center;
+    }
+
+    .projects{
+        padding: 30px;
+    }
+
+ 
+    .slide nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        width: 100%;
+        /* padding: 0px 15px; */
+        height: auto;
+    }
+
+    .slide nav .navimg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide nav .navimg img{
+        width: 30%;
+;
+    }
+
+    .slide nav .link{
+        display: flex;
+        /* gap: 0px; */
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .slide nav .link a{
+        font-size: 10px;
+        
+    }
+
+    .link .fa-phone-volume{
+        font-size: 15px;
+    }
+
+    .ink .fa-house{
+        font-size: 5px;
+    }
+
+
+    .btn :nth-child(2){
+        padding: 10px ;
+    }
+    
+   
+}
